@@ -1,0 +1,47 @@
+# Python
+venv/
+.env/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Data
+/data/
+raw/
+data/raw/*.csv
+*.csv
+*.parquet
+*.zip
+
+# dbt
+.dbt/
+logs/
+target/
+dbterrors.log
+
+# Airflow
+airflow.cfg
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
